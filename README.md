@@ -6,6 +6,12 @@ Date: 03-02-2025
 
 To process multitemporal Sentinel-2 satellite images captured before and after flooding, perform image segmentation to detect water-level changes, extract optical flow direction, and visualize the progression of flood water using a hybrid CNN and ConvLSTM U-Net architecture.
 
+Project Overview
+
+This project focuses on semantic image segmentation using a U-Net-based architecture, with applications in domains like medical imaging, satellite imagery analysis, and post-disaster damage assessment. The model learns to classify each pixel of an input image into meaningful categories (e.g., water, land, building, vegetation).
+
+It works especially well for tasks where pixel-wise accuracy is key, such as flood segmentation, land cover change detection, and medical lesion detection.
+
 🧠 Algorithm
 1. 📥 Loading Satellite Images
 
